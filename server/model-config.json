@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Departamento": {
+    "dataSource": "db",
+    "public": true
   }
 }

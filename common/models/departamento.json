@@ -1,0 +1,22 @@
+{
+  "name": "Departamento",
+  "plural": "departamentos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_depa": {
+      "type": "number",
+      "required": true
+    },
+    "departamento": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
