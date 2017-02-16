@@ -35,5 +35,9 @@
   "Departamento": {
     "dataSource": "db",
     "public": true
+  },
+  "Volcan": {
+    "dataSource": "db",
+    "public": true
   }
 }
