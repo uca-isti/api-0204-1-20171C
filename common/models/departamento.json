@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "volcan": {
+      "type": "belongsTo",
+      "model": "Volcan",
+      "foreignKey": "idvolcan"
+    }
+  },
   "acls": [],
   "methods": {}
 }
