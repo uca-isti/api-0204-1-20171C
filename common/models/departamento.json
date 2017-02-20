@@ -13,16 +13,14 @@
     },
     "departamento": {
       "type": "string"
+    },
+
+    "id_volcanes": {
+      "type": "number"
     }
+      
   },
-  "validations": [],
-  "relations": {
-    "volcan": {
-      "type": "belongsTo",
-      "model": "Volcan",
-      "foreignKey": "idvolcan"
-    }
-  },
+
   "acls": [],
   "methods": {}
 }

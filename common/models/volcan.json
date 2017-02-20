@@ -11,9 +11,26 @@
       "type": "number",
       "required": true
     },
+
     "nombre": {
       "type": "string"
-    }
+    },
+
+    "tipo_volcan": {
+      "type": "string"
+    },
+
+        "descripcion": {
+          "type": "string"
+        },
+
+        "id_departamento": {
+          "type": "number"
+        },
+
+        "id_actividad": {
+          "type": "number"
+        }
   },
   "validations": [],
   "relations": {},
