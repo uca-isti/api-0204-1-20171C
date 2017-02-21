@@ -14,6 +14,16 @@
   },
   "validations": [],
   "relations": {},
-  "acls": [],
+  "acls": [
+          {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY",
+      "property": "WRITE"
+     
+    }
+
+  ],
   "methods": {}
 }
