@@ -39,5 +39,9 @@
   "Volcan": {
     "dataSource": "db",
     "public": true
+  },
+  "VolcanActividades": {
+    "dataSource": "db",
+    "public": true
   }
 }

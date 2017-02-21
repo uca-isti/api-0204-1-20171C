@@ -7,33 +7,31 @@
     "validateUpsert": true
   },
   "properties": {
-    "id_volcan": {
-      "type": "number",
+    "nombre": {
+      "type": "string",
       "required": true
     },
-
-    "nombre": {
-      "type": "string"
+    "tipo": {
+      "type": "string",
+      "required": true
     },
-
-    "tipo_volcan": {
-      "type": "string"
+    "descripcion": {
+      "type": "string",
+      "required": true
     },
-
-        "descripcion": {
-          "type": "string"
-        },
-
-        "id_departamento": {
-          "type": "number"
-        },
-
-        "id_actividad": {
-          "type": "number"
-        }
+    "departamento_id": {
+      "type": "number",
+      "required": true
+    }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "departamento": {
+      "type": "belongsTo",
+      "model": "Departamento",
+      "foreignKey": "departamento_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }

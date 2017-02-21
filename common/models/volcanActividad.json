@@ -1,0 +1,35 @@
+{
+  "name": "VolcanActividades",
+  "plural": "VolcanesActividades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "volcan_id": {
+      "type": "number",
+      "required": true
+    },
+    "actividad_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "volcans": {
+      "type": "hasOne",
+      "model": "Volcan",
+      "foreignKey": "volcan_id"
+    },
+    "actividades": {
+      "type": "hasMany",
+      "model": "Actividad",
+      "foreignKey": "actividad_id",
+      "through": "Actividad"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

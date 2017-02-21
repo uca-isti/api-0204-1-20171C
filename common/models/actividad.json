@@ -7,15 +7,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "id_actividad": {
-      "type": "number",
+    "nombre": {
+      "type": "string",
       "required": true
     },
-    "actividad": {
-      "type": "string"
-    },
     "tipo_actividad": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

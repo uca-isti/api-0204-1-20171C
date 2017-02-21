@@ -7,20 +7,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "id_depa": {
-      "type": "number",
+    "nombre": {
+      "type": "string",
       "required": true
-    },
-    "departamento": {
-      "type": "string"
-    },
-
-    "id_volcanes": {
-      "type": "number"
     }
-      
   },
-
+  "validations": [],
+  "relations": {},
   "acls": [],
   "methods": {}
 }
