@@ -57,8 +57,8 @@
         "permission": "ALLOW",
         "property": "*"
       },{
-        "accessType": "delete",
-        "principalType": "everyone",
+        "accessType": "EXECUTE",
+        "principalType": "ROLE",
         "principalId": "$everyone",
         "permission": "DENY",
         "property": "delete"
