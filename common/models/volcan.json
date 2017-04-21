@@ -58,9 +58,10 @@
         "property": "*"
       },{
         "accessType": "delete",
-        "principalType": "ROLE",
+        "principalType": "everyone",
         "principalId": "$everyone",
-        "permission": "DENY"
+        "permission": "DENY",
+        "property": "delete"
         }],
   "methods": {}
 }

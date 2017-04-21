@@ -14,38 +14,38 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "database"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": false
   },
   "Departamento": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": true
   },
   "Volcan": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": true
   },
   "VolcanActividades": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": true
   },
   "Actividad": {
-    "dataSource": "db",
+    "dataSource": "database",
     "public": true
   }
 
